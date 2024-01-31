@@ -1,0 +1,402 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #9ee6cf; */
+}
+nav img {
+    height: 44px;
+}
+
+nav {
+    background-color: #4ba2ac;
+}
+
+nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none; /* Add this line to remove underline on hover */
+}
+
+
+/* div img {
+    position: relative;
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center;
+    height: 50%;
+    width: 50%;
+} */
+
+.home-background{
+    background-color:#9BBEC8;
+   
+}
+#video-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+     margin: auto;
+    position: relative;
+    width: 45%;
+    height: 45vh    ; 
+    overflow: hidden;
+}
+
+#video-container iframe {
+    height: 100% ;
+    width: 100% ;
+    position: absolute;
+    /* top: 0 ; */
+    left: 0 ;
+    object-fit: cover; 
+
+}
+
+
+#about-us,
+#our-story,
+#our-team,
+#menu {
+    text-align: center;
+    padding: 20px;
+}
+.menu-background{
+    background-color: #9BBEC8;
+}
+#about-us h2 {
+    color: white; 
+      
+}
+#our-story h2 {
+    color: white; 
+   
+      
+}
+#our-team h2 {
+ 
+    color: white; 
+   
+      
+}
+.team-card,
+.menu-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #0f0f0f;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+p {
+    margin: 5px 0;
+}
+
+button[name="login"],
+button[name="signup"] {
+    background-color: #64B9AD; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[name="login"]:hover,
+button[name="signup"]:hover {
+    background-color: #3F8F87; 
+}
+.body-signup {
+    background-image: url('../assets/cafe-background.jpeg');
+    background-size: cover;
+  
+}
+.body-signup {
+    background-image: url('../assets/cafe-background.jpeg');
+    background-size: cover;
+  
+}
+
+
+#signup-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+#signup-form:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #4caf50;
+}
+
+
+
+
+.account-section {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with 0.7 opacity */
+    padding: 15px;
+    border-radius: 8px;
+}
+.account-section a{
+    text-decoration: none;
+    color: #64B9AD
+}
+
+.account-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+
+#location-section {
+    /* text-align: left; */
+    margin: 20px;
+}
+#map-container img{
+width: 100%;
+
+}
+.col-md-2 .item-actions button.btn-outline-danger,
+.col-md-2 .item-actions button.btn-outline-primary {
+    background-color: transparent !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.col-md-2 .item-actions button.btn-outline-danger:hover,
+.col-md-2 .item-actions button.btn-outline-primary:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+/* menu */
+.welcome-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #e44d26;
+}
+
+.explore-message {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#menu-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.card-price {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+input[type="number"].custom {
+    width: 50px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"].custom {
+    background-color: #0abab5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"].custom:hover {
+    background-color: #007e7a;
+}
+
+/* cart */
+.cart-background{
+    /* background-color: #9BBEC8; */
+    background-image: url(../assets/cafe-background.jpeg);
+    background-size: cover;
+    
+}
+.btn-theme {
+    background-color: #64B9AD;
+    /* Tiffany color */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-theme:hover {
+    background-color: #3F8F87;
+    /* Darker Tiffany color on hover */
+    color: white;
+}
+
+.btn-back-to-menu {
+    text-decoration: none;
+    /* Remove underlines from links */
+    cursor: pointer;
+    background-color: #81D8D0;
+    /* Tiffany color */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-back-to-menu:hover {
+    background-color: #64B9AD;
+    /* Darker Tiffany color on hover */
+    color: white;
+}
+
+.btn-delete {
+    text-decoration: none;
+    /* Remove underlines from links */
+    cursor: pointer;
+    background-color: #D24545;
+    /* Red color */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #B32828;
+    /* Darker red color on hover */
+    color: white;
+}
+
+.btn-update {
+    text-decoration: none;
+    /* Remove underlines from links */
+    cursor: pointer;
+    background-color: #596FB7;
+    /* Blue color */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-update:hover {
+    background-color: #405A91;
+    /* Darker blue color on hover */
+    color: white;
+}
+.contact-background{
+    background-color: #9BBEC8;
+} 
+/* Style.css */
+
+#invalid {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
